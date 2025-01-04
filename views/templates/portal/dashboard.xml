@@ -1,0 +1,15 @@
+<odoo>
+    <template id="dashboard">
+        <t t-call="sales_invoice_portal_dashboard.base">
+            <t t-set="header">
+                <title>Dashboard | bdCalling</title>
+                <link rel="stylesheet" href="/sales_invoice_portal_dashboard/static/css/sales_dashboard.css?v=sales_dashboard_3"/>
+            </t>
+            <t t-set="footer">
+                <!--<script src="/sales_invoice_portal_dashboard/static/js/sales_portal_details.js"></script>-->
+            </t>
+            <t t-set="page_code" t-value="'dashboard'"/>
+
+        </t>
+    </template>
+</odoo>

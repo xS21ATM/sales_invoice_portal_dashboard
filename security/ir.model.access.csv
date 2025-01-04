@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sales_portal_1,sales_portal,sale.model_sale_order,base.group_portal,1,1,1,1
+access_sale_order_line_portal_1,sale.order.line.portal.1,sale.model_sale_order_line,base.group_portal,1,1,1,1
+access_invoice_portal,invoice_portal,account.model_account_move,base.group_portal,1,1,1,1
+access_invoice_line_portal,invoice_line_portal,account.model_account_move_line,base.group_portal,1,1,1,1
